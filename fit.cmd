@@ -11,6 +11,8 @@ alias turnicos turn x 31.7174744114610053
 alias bar ~select 0-8; select 9; move z $1; select 0-8; ~select 9;
 
 alias mz move z $1
+alias zm move z $1
+alias tk thickness
 alias sp savepos
 alias sp1 savepos pos1
 alias sp1+ savepos pos1+

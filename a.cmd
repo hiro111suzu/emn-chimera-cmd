@@ -19,6 +19,8 @@ alias mx move x $1
 alias my move y $1
 alias mz move z $1
 alias zm move z $1
+# alias tk thickness $1; ~select 0-8; select 9; move z $1; wait; select 0-8; ~select 9;
+alias tk thickness
 alias sp savepos
 alias sp1 savepos pos1
 alias sp1+ savepos pos1+
