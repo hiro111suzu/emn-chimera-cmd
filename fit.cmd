@@ -50,10 +50,10 @@ alias ss2 save s3;
 alias dep4 set dcStart .4
 
 alias fmov move z $1; savepos pos1; clip yon $2; savepos pos1+; move z $3; savepos pos2; reset pos1; reset pos1+ 20; wait; reset pos2 50; wait; reset;
+delete #1 & element.H
 
 start Side View
 
 st_chain
 sop cap off
-
 
