@@ -50,7 +50,7 @@ alias axy vop add #0; ~select 0; modeldisplay #0; turn y 180; wait; measure rota
 
 
 # save/motion
-alias ss2 save s2; matrixget matrix.txt;
+alias ss2 close #1; save s2; matrixget matrix.txt;
 alias sob volume #0 step $1; export format OBJ 1.obj; stop noask;
 alias sob2 volume #0 step 2; export format OBJ 1.obj; stop noask;
 
