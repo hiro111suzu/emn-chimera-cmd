@@ -29,6 +29,8 @@ alias sty represent stick; ribrepr round; rainbow chain; select C; select invert
 
 alias st_chain select #1; show selected; represent stick; ribrepr round; rainbow chain; select C; select invert sel; color byelement selected; select :/isHet; display selected; color byelement selected; represent bs selected; display selected; ~select;
 
+alias st_c select #1; show selected; represent stick; ribrepr round; rainbow chain; select C; select invert sel; color byelement selected; select :/isHet; display selected; color byelement selected; represent bs selected; display selected; ~select;
+
 alias st_l select #1; show selected; represent stick; ribrepr round; rainbow chain; select C; select invert sel; color byelement selected; select :/isHet; display selected; color byelement selected; represent bs selected; display selected; select protein; ~show selected;  ~select;
 
 alias st_res select #1; show selected; represent stick; ribrepr round; rainbow; select C; select invert sel; color byelement selected; select :/isHet; display selected; color byelement selected; represent bs selected; display selected; ~select;
@@ -51,10 +53,6 @@ alias dep4 set dcStart .4
 
 alias fmov move z $1; savepos pos1; clip yon $2; savepos pos1+; move z $3; savepos pos2; reset pos1; reset pos1+ 20; wait; reset pos2 50; wait; reset;
 
-
 start Side View
-
-st_chain
 sop cap off
 wait; delete #1 & element.H;
-
